@@ -1,0 +1,19 @@
+{
+  "name": "OptixDigitalAI",
+  "short_name": "OptixDigitalAI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#6b21a8",
+  "description": "OptixDigitalAI — A global digital agency offering web design, app development, AI solutions, and marketing innovation.",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "type": "image/png"
+    }
+  ]
+}
