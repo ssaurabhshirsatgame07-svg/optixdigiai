@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import Hero from "../homepage/Hero";
 import About from "../homepage/About";
 import Choose from "../homepage/Choose";
+import InfluencerVideoSection from "../homepage/InfluencerVideoSection";
 import Services from "../homepage/Services";
 import Reviews from "../homepage/Reviews";
 import ErrorBoundary from "../base/ErrorBoundary";
@@ -176,12 +177,19 @@ OptixDigitalAI marketing experts, OptixDigitalAI ad management Pune
       <ErrorBoundary>
         <Choose />
       </ErrorBoundary>
+
+      {/* 🔥 New Influencer Video Section */}
+      <ErrorBoundary>
+        <InfluencerVideoSection />
+      </ErrorBoundary>
+
       <ErrorBoundary>
         <Services />
       </ErrorBoundary>
       <ErrorBoundary>
         <Reviews />
       </ErrorBoundary>
+
     </div>
   );
 };
